@@ -1,0 +1,13 @@
+{
+  "name": "cloude-cart-bot",
+  "version": "1.0.0",
+  "description": "CLOUDE CART 🛒 - Telegram Digital Goods Store",
+  "main": "admin-bot.js",
+  "scripts": {
+    "start": "node admin-bot.js & node user-bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.0.0"
+  }
+}
